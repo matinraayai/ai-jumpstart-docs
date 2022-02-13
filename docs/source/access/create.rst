@@ -3,7 +3,7 @@ Request Access to the Discovery Cluster
 This document explains the required procedure to get access to the AI Jumpstart cluster.
 
 Request a Sponsored Northeastern University Account
---------------------------------------------------
+---------------------------------------------------
 The AI Jumpstart cluster is hosted and maintained by Northeastern University's Research Computing team in
 Holyoke, Massachusetts. Therefore, like any other supercomputing resources owned by Northeastern, one requires
 a Northeastern account to be able to use it. If you are already affiliated with Northeastern you may skip this step.
