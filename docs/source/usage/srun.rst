@@ -3,7 +3,9 @@ Using ``srun``
 
 ``srun`` is a Slurm utility for allocating parallel jobs on a partition. :extern:doc:`using-discovery/srun` and
 :extern:doc:`using-discovery/workingwithgpu` include examples usages of ``srun`` both with and without a GPU.
-Here we cover ``srun`` commands specific to the ``ai-jumpstart`` partition. You
+Usage of GPUs with Tensorflow and Pytorch is covered in :doc:`../software/tensorflow` and :doc:`../software/pytorch`,
+respectively.
+Here we cover ``srun`` commands specific to the ``ai-jumpstart`` partition.
 
 Using Nvidia DGX Nodes
 ++++++++++++++++++++++
@@ -21,7 +23,7 @@ The above command:
      DGX nodes with ``--constraint=dgx``.
    * Allocates a single node for the job with ``--nodes 1``.
    * Allocates all the cores available to a single DGX node with ``-c 256``
-   * Specifies 8 Nvidia A100 GPUs for the job using the ``--gres:gpu:a100`` flag.
+   * Specifies 8 Nvidia A100 GPUs for the job using the ``--gres:gpu:a100:8`` flag.
    * Requests all 1 TB memory via ``--mem=1024Gb``.
 
 This allocation is usually (very) overkill for most tasks, and takes away one out of 5 DGX nodes available to the users
