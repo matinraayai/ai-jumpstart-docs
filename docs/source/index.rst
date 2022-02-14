@@ -1,12 +1,54 @@
 AI Jumpstart Cluster Documentation
 ===================================
-This webpage includes info to get started on
+This documentation includes necessary info get started on
 using the AI Jumpstart cluster, hosted by Northeastern University's
-Research Computing Team in Holyoke, Massachusetts.
+Research Computing (RC) Team in Holyoke, Massachusetts. This documentation is intended for users external to
+Northeastern University in Boston, Massachusetts. Keep in mind that the Research Computing team
+maintains its own set of documentation `<here https://rc-docs.northeastern.edu/en/latest/>`_. Our goal is to complement
+the RC documentation; At times where the required information is discussed thoroughly in the RC documentation, a direct
+link to the RC documentation page is provided. Discrepancies and tailored information targeted to this document's
+intended audience not provided in the RC documentation is expanded upon.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Access the Discovery Cluster
+   :caption: Accessing the Discovery Cluster
 
    access/create
    access/login
+   access/ood
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Hardware on AI Jumpstart
+
+   hardware/hardware_overview
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Using the AI Jumpstart Cluster
+
+  usage/usingslurm
+  usage/sbatch
+  usage/srun
+  usage/workingwithgpu
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Software on Discovery
+
+   software/softwareoverview
+   software/modules
+   software/bashrc
+   software/conda
+   software/spack
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Storage and Data Transfer
+
+   storage/discovery_storage
+   storage/general_storage
+   storage/transferringdata
+   storage/globus
+

@@ -40,3 +40,8 @@ Request a Discovery Cluster Account
 After your request for a sponsored Northeastern University account is approved, send an email to
 `kaeli@ece.neu.edu <kaeli@ece.neu.edu>`_
 with your username to request an account on the Discovery cluster.
+
+.. note::
+   The RC documentation has directions to request sponsored access to the Discovery cluster in
+   :external:doc:`first_steps/get_access`. While using the Service Now form will also gives you access to
+   the cluster, emailing your request directly ensures faster processing and is our recommended way.
