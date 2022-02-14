@@ -1,7 +1,7 @@
 Accessing the Discovery Cluster via Open OnDemand (OOD)
 =======================================================
 
-Open OnDemand (OOD) is a web portal to the Discovery cluster. See :external:doc:`connect_ood` for more information.
+Open OnDemand (OOD) is a web portal to the Discovery cluster. See :external:doc:`first_steps/connect_ood` for more information.
 
 .. note::
    OOD is currently unable to launch GUI applications or XFCE sessions on the AI Jumpstart cluster. Any
