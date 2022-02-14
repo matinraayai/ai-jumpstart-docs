@@ -28,7 +28,7 @@ intended audience not provided in the RC documentation is expanded upon.
   :maxdepth: 2
   :caption: Using the AI Jumpstart Cluster
 
-  usage/usingslurm
+  usage/slurm
   usage/sbatch
   usage/srun
   usage/workingwithgpu
