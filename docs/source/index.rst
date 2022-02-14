@@ -29,8 +29,8 @@ intended audience not provided in the RC documentation is expanded upon.
   :caption: Using the AI Jumpstart Cluster
 
   usage/slurm
-  usage/sbatch
   usage/srun
+  usage/sbatch
   usage/workingwithgpu
 
 .. toctree::

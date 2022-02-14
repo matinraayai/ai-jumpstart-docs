@@ -6,7 +6,7 @@ See :extern:doc:`using-discovery/usingslurm` for a list of basic commands to use
 `Slurm Documentation <https://slurm.schedmd.com>`_ for a more in-depth documentation of Slurm features.
 
 Viewing Partition Info to Use with Slurm
-========================================
+++++++++++++++++++++++++++++++++++++++++
 Slurm allows users to view information about the partitions they have access to via command line utilities ``sinfo``,
 ``scontrol``, and ``sacct``. See :extern:doc:`hardware/hardware_overview` for a list of usage examples that can be used
 on the ``ai-jumpstart`` partition.
