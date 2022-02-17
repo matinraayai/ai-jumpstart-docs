@@ -11,7 +11,7 @@ documentation page is provided. Discrepancies and tailored information targeted 
 intended audience not provided in the RC documentation is expanded upon.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Accessing the Discovery Cluster
 
    access/create
@@ -31,17 +31,14 @@ intended audience not provided in the RC documentation is expanded upon.
   usage/slurm
   usage/srun
   usage/sbatch
-  usage/workingwithgpu
 
 .. toctree::
    :maxdepth: 2
    :caption: Software on Discovery
 
-   software/softwareoverview
-   software/modules
-   software/bashrc
-   software/spack
-   software/conda
+   software/softwareusage
+   software/rocm
+   software/cuda
    software/tensorflow
    software/pytorch
 
