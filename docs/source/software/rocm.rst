@@ -14,7 +14,7 @@ Installing ROCm via ``spack``
 +++++++++++++++++++++++++++++
 The pre-loaded ROCm module is stable and should be enough for running deep-learning based tasks. If you require a
 different version of the ROCm stack, use ``spack`` to install your ROCm version of choice locally.
-To learn how to use ``spack`` on Discovery, see :extern:doc:`software/spack`.
+To learn how to use ``spack`` on Discovery, see :external:doc:`software/spack`.
 Below are some of ROCm tools provided through `spack <https://www.reddit.com/r/ROCm/comments/kcq5ax/spack_v0160_install_package/>`_:
 
 * **Base ROCm Packages** ``hsakmt``, ``hsakmt-roct``, ``llvm-amdgpu``, ``rocm-cmake``, ``rocm-smi``, ``rocm-smi-lib``.

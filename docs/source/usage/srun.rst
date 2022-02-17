@@ -1,8 +1,8 @@
 Using ``srun``
 ==============
 
-``srun`` is a Slurm utility for allocating parallel jobs on a partition. :extern:doc:`using-discovery/srun` and
-:extern:doc:`using-discovery/workingwithgpu` include examples usages of ``srun`` both with and without a GPU.
+``srun`` is a Slurm utility for allocating parallel jobs on a partition. :external:doc:`using-discovery/srun` and
+:external:doc:`using-discovery/workingwithgpu` include examples usages of ``srun`` both with and without a GPU.
 Usage of GPUs with Tensorflow and Pytorch is covered in :doc:`../software/tensorflow` and :doc:`../software/pytorch`,
 respectively.
 Here we cover ``srun`` commands specific to the ``ai-jumpstart`` partition.
