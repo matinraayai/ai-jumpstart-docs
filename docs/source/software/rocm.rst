@@ -8,7 +8,8 @@ The ROCm stack version 4.2 is available as a module for AMD nodes of AI Jumpstar
 
   module load rocm
 
-To check if the ``rocm`` module is correctly loaded, run ``rocm-smi`` to view the GPUs attached to the system.
+To check if the ``rocm`` module is correctly loaded, run ``rocm-smi`` to view the GPUs attached to the system. For more
+information on modules, see :external:doc:`software/modules`.
 
 Installing ROCm via ``spack``
 +++++++++++++++++++++++++++++
@@ -33,8 +34,9 @@ To install a ``spack`` ROCm stack package locally:
 
 1. Use ``spack info <rocm_package>`` to view information on each ROCm package, including the versions available and
 required dependencies.
-2. If a dependency is available as a module on Discovery load it via ``module load``, or let ``spack``
-   install them locally as well. Notable dependencies for the ROCm stack are ``cmake`` and ``gcc``.
+2. If a dependency is available as a module on Discovery, first load it via ``module load <module_name>/<module_version>``
+   first, and then run ``spack external find`` to register it with ``spack``, or let ``spack`` install them locally if it is not able to find them.
+   Notable dependencies for the ROCm stack are ``cmake`` and ``gcc``.
 3. Finally, run ``spack install <rocm_package>@<package_version>`` to install it.
 
 To use the Installed ROCm package, run ``spack load <rocm_package>`` to load the default version of the package

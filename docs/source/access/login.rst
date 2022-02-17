@@ -63,9 +63,11 @@ identical for a Linux machine.
 
 .. warning::
    Login nodes are only for connecting to the Discovery cluster. They are not meant to run any kind of compute jobs or
-   transferring files bigger than 100 MBs.
+   transferring files bigger than 100 MBs. See :external:doc:`using-discovery/transferringdata`
+   and :external:doc:`using-discovery/globus` for instructions on how to transfer data on Windows and Mac(Unix) to
+   the Discovery cluster.
 
 Working with Bash on Discovery
 ++++++++++++++++++++++++++++++
-The Discovery cluster runs on CentOS Linux, with Bash as its default Shell. See :extern:doc:`first_steps/bashrc` for
+The Discovery cluster runs on CentOS Linux, with Bash as its default Shell. See :external:doc:`first_steps/bashrc` for
 useful tips for configuring your Bash environment on Discovery.
