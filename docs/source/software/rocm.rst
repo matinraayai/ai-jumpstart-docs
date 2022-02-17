@@ -29,14 +29,26 @@ Below are some of ROCm tools provided through `spack <https://www.reddit.com/r/R
   ``hipsparse``, ``migraphx``, ``miopen-hip``, ``miopen-opencl``, ``rocblas``, ``rocfft``, ``rocprim``, ``rocrand``,
   ``rocsolver``, ``rocsparse``, ``rocthrust``.
 
-Use ``spack info <rocm_package>`` to view information on each ROCm package, including the versions available, and then
-run ``spack install <rocm_package>@<package_version>`` to install it. After installation, run ``spack load <rocm_package>``
-to load the default version of the package installed. Make sure that **no ROCm modules from Discovery are not loaded**
-to avoid conflicts.
+To install a ``spack`` ROCm stack package locally:
+
+1. Use ``spack info <rocm_package>`` to view information on each ROCm package, including the versions available and
+required dependencies.
+2. If a dependency is available as a module on Discovery load it via ``module load``, or let ``spack``
+   install them locally as well. Notable dependencies for the ROCm stack are ``cmake`` and ``gcc``.
+3. Finally, run ``spack install <rocm_package>@<package_version>`` to install it.
+
+To use the Installed ROCm package, run ``spack load <rocm_package>`` to load the default version of the package
+installed. If a **pre-installed Discovery module** was used to install a package, make sure to **load it** via
+``module load``. Make sure that **no ROCm modules from Discovery are not loaded** to avoid conflicts.
 
 .. attention::
    ``Spack`` compiles each package from scratch, and compilation of the ROCm stack requires a compiler with support for the
-   C++17 standard, not supported by the default ``gcc`` compiler on the Discovery cluster. It is recommended to
-   first install the latest ``gcc`` via spack and register it as the compiler of choice for ``spack`` by running
-   ``spack compiler find``. Compiling with pre-installed compiler modules is possible, but need to be loaded each time
-   prior to using the ROCm package manually, and therefore is not recommended.
+   C++17 standard, not supported by the default ``gcc`` compiler on the Discovery cluster. Be sure to load a newer version
+   of ``gcc`` via ``module load`` before installing a ROCm package via ``spack``.
+
+.. caution::
+   If ``spack`` is not able to find a dependency available on your system (in ROCm's case, ``gcc`` or ``cmake``),
+   it will revert to compiling it from scratch and storing it in your storage quota.
+   Storage on the Discovery cluster is limited, and locally installed ``spack`` packages will reduce your storage quota.
+   Only install software locally if it's justified for your use case. If you install packages locally, leverage the
+   available modules on the Discovery cluster to minimize ``spack``'s disk usage.
