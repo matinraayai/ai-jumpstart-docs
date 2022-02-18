@@ -34,7 +34,7 @@ intended audience which was not provided in the RC documentation, is expanded up
 
 .. toctree::
    :maxdepth: 2
-   :caption: Software on Discovery
+   :caption: Software on AI Jumpstart
 
    software/softwareusage
    software/rocm

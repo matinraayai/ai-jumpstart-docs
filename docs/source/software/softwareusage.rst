@@ -1,5 +1,5 @@
-Software on Discovery
-=============================
+Software Usage
+===============
 
 Loading and Installing Software
 +++++++++++++++++++++++++++++++
