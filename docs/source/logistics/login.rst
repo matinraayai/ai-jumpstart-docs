@@ -61,11 +61,10 @@ identical for a Linux machine.
 
 
 
-.. warning::
+.. attention::
    Login nodes are only for connecting to the Discovery cluster. They are not meant to run any kind of compute jobs or
-   transferring files bigger than 100 MBs. See :external:doc:`using-discovery/transferringdata`
-   and :external:doc:`using-discovery/globus` for instructions on how to transfer data on Windows and Mac(Unix) to
-   the Discovery cluster.
+   transferring files. See :doc:`../storage/data-transfer` for instructions on how to transfer data
+   on Windows and Mac(Unix) to and from the Discovery cluster.
 
 Working with Bash on Discovery
 ++++++++++++++++++++++++++++++
