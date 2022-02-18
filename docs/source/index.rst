@@ -14,9 +14,10 @@ intended audience which was not provided in the RC documentation, is expanded up
    :maxdepth: 3
    :caption: Accessing the Discovery Cluster
 
-   access/create
-   access/login
-   access/ood
+   logistics/create
+   logistics/login
+   logistics/ood
+   logistics/help
 
 .. toctree::
    :maxdepth: 2

@@ -17,7 +17,7 @@ To run Pytorch on an NVIDIA DGX node:
      Tensorflow with CUDA support is available on the `Tensorflow website <https://www.tensorflow.org/install/gpu>`_.
   5. If the loaded CUDA module does not include CuDNN (versions prior to 11.4), install CuDNN locally on your machine.
      See :doc:`cuda` for more details.
-  5. Run the following command to confirm CUDA support is available: ``python -c'import tensorflow as tf;  print(tf.test.gpu_device_name());'``
+  6. Run the following command to confirm CUDA support is available: ``python -c'import tensorflow as tf;  print(tf.test.gpu_device_name());'``
 
 Which should list the GPUs available on your machine, allocated via Slurm.
 
