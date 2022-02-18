@@ -12,7 +12,7 @@ intended audience which was not provided in the RC documentation, is expanded up
 
 .. toctree::
    :maxdepth: 3
-   :caption: Accessing the Discovery Cluster
+   :caption: Logistics of the Discovery Cluster
 
    logistics/create
    logistics/login
@@ -26,12 +26,20 @@ intended audience which was not provided in the RC documentation, is expanded up
    hardware/hardware_overview
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Storage on AI Jumpstart
+
+   storage/partitions
+   storage/data-transfer
+
+.. toctree::
   :maxdepth: 2
   :caption: Using the AI Jumpstart Cluster
 
   usage/slurm
   usage/srun
   usage/sbatch
+
 
 .. toctree::
    :maxdepth: 2
@@ -48,7 +56,4 @@ intended audience which was not provided in the RC documentation, is expanded up
    :maxdepth: 2
    :caption: Storage and Data Transfer
 
-   storage/discovery_storage
-   storage/transferringdata
-   storage/globus
 
