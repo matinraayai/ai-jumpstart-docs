@@ -2,13 +2,13 @@ Overview of Hardware Available on AI Jumpstart
 ==============================================
 The AI Jumpstart cluster has the following machines available:
 
-+---------------+----------------------------------+-----------------+-------------------+--------------------+----------+-----------------+
-| CPU           | Number of CPUs/CPU Cores/Threads | GPUs (#)        | GPU Interconnect  | Node Interconnect  | RAM      | Node Names (#)  |
-+===============+==================================+=================+===================+====================+==========+=================+
-| AMD EPYC 7302 | 1 CPU / 16 cores / 32 threads    | AMD MI-50 (8)   |                   |                    | 1 TB     | d31(46-50) (5)  |
-+---------------+----------------------------------+-----------------+-------------------+--------------------+----------+-----------------+
-| AMD EPYC 7742 | 2 CPUs/ 128 cores / 128 threads  | Nvidia A100 (8) | Nvidia NVSwitch   | HDR 200 Infiniband | 512 GB   | d31(51-64) (14) |
-+---------------+----------------------------------+-----------------+-------------------+--------------------+----------+-----------------+
++---------------+----------------------------------+-----------------+---------------------+--------------------+----------+-----------------+
+| CPU           | Number of CPUs/CPU Cores/Threads |    GPUs (#)     |   GPU Interconnect  | Node Interconnect  |   RAM    | Node Names (#)  |
++===============+==================================+=================+=====================+====================+==========+=================+
+| AMD EPYC 7302 | 1 CPU / 16 cores / 32 threads    | AMD MI-50 (8)   | AMD Infinity Fabric | HDR 200 Infiniband | 1 TB     | d31(46-50) (5)  |
++---------------+----------------------------------+-----------------+---------------------+--------------------+----------+-----------------+
+| AMD EPYC 7742 | 2 CPUs/ 128 cores / 128 threads  | Nvidia A100 (8) |   Nvidia NVSwitch   | HDR 200 Infiniband | 512 GB   | d31(51-64) (14) |
++---------------+----------------------------------+-----------------+---------------------+--------------------+----------+-----------------+
 
 These machines reside inside a partition named ``ai-jumpstart`` inside the Discovery cluster. In the usage sections
 :doc:`../usage/sbatch`, :doc:`../usage/slurm`, and :doc:`../usage/srun` it is described in detail how to use this to allocate
