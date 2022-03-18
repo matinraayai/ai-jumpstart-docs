@@ -32,6 +32,14 @@ the ``Search`` button. The Sponsor's information must appear as the following af
 6. Press ``Continue`` to begin processing the account request. It may take a day or two for the system to generate
 emails and process approvals.
 
+7. After approval, you should get an email with a link to ``Claim Your Northeastern Account``. Use the link to finalize
+creation of your Northeastern account to access the Discovery cluster.
+
+.. note::
+  Due to delays in the approval system's backend, ``Claim Your Northeastern Account`` might not work right away,
+  redirecting users to call Northeastern ITS. Waiting for about 2-3 hours before using the link again should resolve this
+  issue.
+
 You can review the information about sponsored Northeastern accounts
 `here <https://service.northeastern.edu/tech?id=kb_article&sys_id=7762f2dc87c9811028bfb84acebb3593>`_.
 
